@@ -52,4 +52,13 @@ body {
   width: 30px;
 
   background: url("../images/star.svg") no-repeat center center / contain transparent;
+  transition: all 2s ease;
 }
+
+@keyframes growstars {
+
+  0% {
+    width: 0;
+    transform: rotate: 350deg;
+      transform-origin: center;
+  }
