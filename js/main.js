@@ -18,3 +18,6 @@ for (i = 0; i < 75; i++) {
     transform: 'scale(' + $scaleNum + '%)',
     animation: 'growstars ' + $animateNum + 's alternate infinite'
   });
+
+  $banner.append($addStars);
+};
